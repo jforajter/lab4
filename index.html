@@ -23,8 +23,6 @@
 	  </p>
 	  <p>
 	    <label>Gender:<input type="radio" name="gender_field" value="m" checked="checked">Male</label>
-	  </p>
-	  <p>
 	    <input type="radio" name="gender_field" value="f">Female
 	  </p>
 	  <label>Age:<select size="7" multiple="multiple" name="age_field"></label>
@@ -37,5 +35,18 @@
 		<option value=""><65 and over></option>
 	  </select>
 	</fieldset>
+	<fieldset>
+	  <legend>My Availability</legend>
+	  <p>
+	    <label>Days Available<input type="checkbox" name="available_field[]" value="sunday">Sunday</label>
+		<input type="checkbox" name="available_field[]" value="monday">Monday
+		<input type="checkbox" name="available_field[]" value="tuesday">Tuesday
+		<input type="checkbox" name="available_field[]" value="wednesday">Wednesday
+		<input type="checkbox" name="available_field[]" value="thursday">Thursday
+		<input type="checkbox" name="available_field[]" value="friday">Friday
+		<input type="checkbox" name="available_field[]" value="Saturday">Saturday
+	  </p>
+	</fieldset>
+	
   </form>
 </body>
